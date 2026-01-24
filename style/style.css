@@ -18,6 +18,10 @@
      color: #474747;
 }
 
+.dark-3{
+    color: #757575
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: 700;
@@ -25,6 +29,16 @@
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
+    border: none;
+}
+
+/* header style */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    /* Two background image added here by inverted coma */
+    background-repeat: no-repeat; 
+    background-position: top left, bottom right;
+    /* Position for first one Developer it position name top left and other one is goes bottom right to make the position of background image right */
 }
 
 /* nav styles */
@@ -51,4 +65,38 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
+}
+
+
+/* Banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    width: 580px;
+}
+
+.banner-greetings{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight:600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description{
+    font-family: Open Sans;
+    font-size: 18px;
+    
+}
+
+.banner-profile-pic{
+    width: 580px;
 }
