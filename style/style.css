@@ -168,3 +168,47 @@ main section{
     margin-top: 50px;
 }
 
+/* resume section style */
+
+.resume .section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 70px;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.experience .experience-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.experience .experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
