@@ -48,7 +48,7 @@
     font-size: 18px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -119,58 +119,58 @@ nav ul li a {
 
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 580px;
 }
 
 /* main styles */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 /* about style start */
 
-.about{
-     border-radius: 10px;
-     padding: 130px 150px;
-     text-align: center;
-     margin-top: 130px;
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
 
 }
 
-.item-description{
+.item-description {
     font-weight: 600;
 }
 
 /* Skills styles */
 
-.skill{
+.skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     /* how box shadow works here (0px for x-axis) (6px for y-axis) (50px blur) (spread 0px) (color-black)*/
 }
 
-.skills-container{
+.skills-container {
     display: flex;
-    gap:24px;
+    gap: 24px;
     margin-top: 50px;
 }
 
 /* resume section style */
 
-.resume .section-title{
+.resume .section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -178,37 +178,60 @@ main section{
 
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 }
 
-.experience-sub-title{
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
-    
+
 }
 
-.resume hr{
+.resume hr {
     margin: 30px 5px;
 }
 
-.resume-column-title{
+.resume-column-title {
     font-size: 30px;
     font-weight: 700;
 }
 
-.experience .experience-title{
+.experience .experience-title {
     font-size: 25px;
     font-weight: 700;
 }
 
-.experience .experience-sub-title{
+.experience .experience-sub-title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.resume-download-cv{
+.resume-download-cv {
     margin-top: 50px;
+}
+
+/* footer style */
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
